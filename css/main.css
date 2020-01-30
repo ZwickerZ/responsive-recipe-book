@@ -1,1 +1,176 @@
+:root {
+  --color-primary: #65B1E8;
+  --color-primary-light: #D8FFFF;
+  --color-secondary: #4E4E4E;
+  --color-secondary-light: #707070;
 
+  --font-primary: garamond-premier-pro, serif;
+  --font-secondary: niveau-grotesk, sans-serif;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  background-color: white;
+  line-height: 1.5745rem;
+}
+
+.size-39 {
+  font-size: 2.441rem;
+  line-height: 1.25em;
+}
+
+.size-31 {
+  font-size: 1.953rem;
+}
+
+.size-25 {
+  font-size: 1.563rem;
+}
+
+.logo {
+  margin-top: 32px;
+  max-height: 32px;
+}
+
+.logo-blue {
+  background-color: var(--color-primary);
+  border-radius: 0 0 2px 2px;
+  height: 76px;
+  min-width: 190px;
+}
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+nav ul li a{
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: 500;
+}
+
+.left-border {
+  border-left: 2px solid var(--color-secondary);
+}
+
+.shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0, 0.16);
+}
+
+.hero-banner {
+  overflow: hidden;
+  max-height: 22.737rem;
+}
+
+.hero-text {
+  top: 2em;
+  left: 0;
+}
+
+.hero-text p {
+  color: var(--color-primary);
+  background-color: white;
+  font-family: var(--font-secondary);
+}
+
+.intro h3, .section-header {
+  color: var(--color-secondary-light);
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+
+.intro h4 {
+  font-size: 1.25em;
+  font-family: var(--font-primary);
+  font-weight: 300;
+}
+
+.intro p {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+
+.img-contain {
+  max-height: 11.642em;
+  overflow: hidden;
+}
+
+.card-text {
+  top: .5em;
+
+  font-family: var(--font-primary);
+  font-weight: 500;
+  line-height: 1.25em;
+
+  color: var(--color-primary);
+  background-color: white;
+}
+
+.card-box {
+  height: 39.06px;
+  background-color: var(--color-primary);
+}
+
+.bright-btn {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border: none;
+}
+
+.footer {
+  background-color: var(--color-primary);
+}
+
+.footer .buy-link {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-light);
+
+  text-decoration: none;
+}
+
+.copyright {
+  font-family: var(--font-primary);
+  color: white;
+  margin: 0;
+}
+
+.recipe-titles {
+  font-family: var(--font-secondary);
+  font-weight: 200;
+  letter-spacing: 1.984px;
+}
+
+.recipe-text {
+  font-family: var(--font-primary);
+}
+
+.recipe-desc {
+  border-bottom: 2px solid var(--color-secondary);
+}
+
+.prep {
+  border-left: none;
+}
+@media only screen and (min-width: 60em) {
+
+  .head-1 {
+    margin: 0;
+  }
+
+  header .nav {
+    padding-top: 0;
+    padding-bottom: .5em;
+  }
+
+  .nav ul {
+    padding-right: 0;
+  }
+
+  .prep {
+    border-left: 2px solid var(--color-secondary);
+  }
+}
