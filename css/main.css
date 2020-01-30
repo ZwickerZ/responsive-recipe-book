@@ -155,6 +155,14 @@ nav ul li a{
 .prep {
   border-left: none;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .prep {
+    border-left: 2px solid var(--color-secondary);
+  }
+
+}
 @media only screen and (min-width: 60em) {
 
   .head-1 {
@@ -170,7 +178,4 @@ nav ul li a{
     padding-right: 0;
   }
 
-  .prep {
-    border-left: 2px solid var(--color-secondary);
-  }
 }
